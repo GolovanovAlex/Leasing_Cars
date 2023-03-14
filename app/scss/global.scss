@@ -1,16 +1,52 @@
 // ---- ---- color ---- ---- //
 $color_light: #ffffff;
-$color_dark: #171919;
-$color_accent: #ffb240;
-$color_bgdark: #0f1010;
+$color_dark: #151515;
+$color_accent: #0066ff;
+$color_grey: #e8e8e8;
 
 // ---- ---- main ---- ---- //
 body {
   min-width: 300px;
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: $color_dark;
 }
 .container {
-  max-width: 1920px;
+  max-width: 1220px;
+  padding: 0 10px;
   margin: 0 auto;
 }
 // ---- ---- title ---- ---- //
+
+// ---- ---- menu ---- ---- //
+.menu {
+  &__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+  &__link {
+    font-weight: 700;
+    color: $color_light;
+    text-transform: uppercase;
+  }
+}
+// ---- ---- header ---- ---- //
+.header {
+  background-color: $color_dark;
+  &--main {
+    // background-color: transparent;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+}
+// ---- ---- footer ---- ---- //
