@@ -1,6 +1,5 @@
 // ---- ---- reset ---- ---- //
-@import 'slick.scss';
-@import 'jquery.fancybox.scss';
+@import 'swiper-bundle.min.scss';
 @import 'normalize.scss';
 @import 'myreset.scss';
 @import 'global.scss';
@@ -9,6 +8,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 // ---- ---- main ---- ---- //
-
+.header--main {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  color: $color_light;
+  text-align: center;
+  z-index: 10;
+  &__title {
+    margin-bottom: 38px;
+  }
+  &__btn {
+    display: inline-block;
+    width: 100%;
+    max-width: 430px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 23px;
+    background-color: $color_dark;
+  }
+}
+// ---- ---- slider-swiper ---- ---- //
+.slider {
+  &__img {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.swiper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 21, 21, 0.3);
+  z-index: 3;
+}
+.swiper-pagination-bullet {
+  width: 120px;
+  height: 3px;
+  background-color: $color_dark;
+  border-radius: 0;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  height: 6px;
+  background-color: $color_light;
+}
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 15px;
+}
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 35px;
+}
 // ---- ---- media ---- ---- //
 @import 'media.scss';
