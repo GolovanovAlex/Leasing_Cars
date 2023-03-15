@@ -76,5 +76,67 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 35px;
 }
+// ---- ---- section ---- ---- //
+.why {
+  padding-top: 150px;
+  &__title-section {
+    margin-bottom: 50px;
+  }
+  &__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  &__item {
+    max-width: 270px;
+  }
+  &__img {
+    margin-bottom: 30px;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  &__text {
+    text-align: left;
+  }
+}
+.how {
+  padding-top: 150px;
+  max-width: 620px;
+  margin: 0 auto;
+  &__title-section {
+    margin-bottom: 50px;
+  }
+  &__text {
+  }
+  &__box {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &__text-info {
+    max-width: 270px;
+  }
+  &__img {
+    display: inline-block;
+    margin-left: 90px;
+  }
+}
+
+// ---- ---- media ---- ---- //
 // ---- ---- media ---- ---- //
 @import 'media.scss';
