@@ -275,6 +275,9 @@
   &__btn-item {
     font-size: 24px;
     font-weight: 700;
+    &--active {
+      color: $color_accent;
+    }
   }
   &__content {
     margin-bottom: 70px;
@@ -282,24 +285,29 @@
   &__content-item {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
+    gap: 100px 40px;
     text-align: center;
   }
   &__card {
     border: 1px solid $color_accent;
   }
   &__card-img {
+    object-fit: cover;
     margin-bottom: 20px;
   }
   &__card-title {
+    padding: 0 5px;
+
     margin-bottom: 20px;
   }
   &__card-text {
+    padding: 0 5px;
     margin-bottom: 20px;
   }
   &__card-price {
     font-size: 24px;
     font-weight: 700;
+    padding: 0 5px;
     margin-bottom: 20px;
   }
   &__card-link {
