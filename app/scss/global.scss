@@ -43,6 +43,14 @@ body {
     font-weight: 700;
     text-align: center;
   }
+  &__h4 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+.subtitle {
+  font-size: 24px;
+  font-weight: 700;
 }
 // ---- ---- menu ---- ---- //
 .menu {
@@ -95,8 +103,6 @@ body {
     }
   }
   &__menu-title {
-    font-size: 24px;
-    font-weight: 700;
     margin-bottom: 40px;
   }
   &__app-box {

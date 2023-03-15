@@ -95,9 +95,7 @@
   &__img {
     margin-bottom: 30px;
   }
-  &__title {
-    font-size: 24px;
-    font-weight: 700;
+  &__subtitle {
     margin-bottom: 30px;
   }
   &__text {
@@ -117,9 +115,7 @@
     margin-top: 50px;
     margin-bottom: 70px;
   }
-  &__title {
-    font-size: 24px;
-    font-weight: 700;
+  &__subtitle {
     margin-bottom: 50px;
   }
   &__item {
@@ -142,17 +138,12 @@
   &__title-section {
     margin-bottom: 20px;
   }
-  &__sub-title {
-    font-size: 24px;
-    font-weight: 700;
+  &__subtitle {
     margin-bottom: 50px;
-  }
-  &__content {
   }
 }
 .important {
   padding: 150px 0;
-
   &__title-section {
     margin-bottom: 20px;
   }
@@ -165,15 +156,22 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
   }
-  &__item {
-  }
   &__img {
     margin-bottom: 20px;
   }
-  &__item-text {
+}
+
+// ---- ---- contacts.html ---- ---- //
+.contacts {
+  padding-top: 100px;
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    text-align: center;
+    margin-bottom: 50px;
   }
 }
 
-// ---- ---- media ---- ---- //
 // ---- ---- media ---- ---- //
 @import 'media.scss';
