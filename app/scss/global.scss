@@ -64,7 +64,22 @@ body {
     font-weight: 700;
     color: $color_light;
     text-transform: uppercase;
+    &--active {
+      color: $color_accent;
+    }
   }
+}
+// ---- ---- showmore ---- ---- //
+.showmore-link {
+  display: block;
+  width: 100%;
+  max-width: 223px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $color_dark;
+  color: $color_light;
+  padding: 13px 20px;
+  margin: 0 auto;
 }
 // ---- ---- header ---- ---- //
 .header {

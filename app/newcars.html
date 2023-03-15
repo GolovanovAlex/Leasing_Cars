@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header header--main">
+      <header class="header">
         <div class="container">
           <div class="header__inner">
             <a class="logo" href="index.html"
@@ -26,7 +26,9 @@
             <nav class="menu">
               <ul class="menu__items">
                 <li class="menu__item">
-                  <a class="menu__link" href="newcars.html">NEW CARS</a>
+                  <a class="menu__link menu__link--active" href="newcars.html"
+                    >NEW CARS</a
+                  >
                 </li>
                 <li class="menu__item">
                   <a class="menu__link" href="#">PRE-OWNED CARS</a>
@@ -45,7 +47,107 @@
           </div>
         </div>
       </header>
-      <main class="main"></main>
+      <main class="main">
+        <section class="cars">
+          <div class="container">
+            <h2 class="title title__h2 cars__title">Choose your car</h2>
+            <div class="tabs">
+              <div class="tabs__btn">
+                <button class="tabs__btn-item">Car and Minivan</button>
+                <button class="tabs__btn-item">Trucks</button>
+                <button class="tabs__btn-item">Crossovers & SUVs</button>
+                <button class="tabs__btn-item">Electrified</button>
+              </div>
+              <div class="tabs__content">
+                <div class="tabs__content-item">
+                  <div class="tabs__card">
+                    <img
+                      class="tabs__card-img"
+                      src="images/content/car_01.jpg"
+                      alt="Toyota Crown 2023"
+                    />
+                    <h4 class="title title__h4 tabs__card-title">
+                      Toyota Crown 2023
+                    </h4>
+                    <p class="tabs__card-text">starting from $ 39900</p>
+                    <p class="tabs__card-price">$ 650/mo</p>
+                    <a class="tabs__card-link" href="#">see details</a>
+                  </div>
+                  <div class="tabs__card">
+                    <img
+                      class="tabs__card-img"
+                      src="images/content/car_02.jpg"
+                      alt="Prius Prime 2023"
+                    />
+                    <h4 class="title title__h4 tabs__card-title">
+                      Prius Prime 2023
+                    </h4>
+                    <p class="tabs__card-text">starting from $ 39900</p>
+                    <p class="tabs__card-price">$ 450/mo</p>
+                    <a class="tabs__card-link" href="#">see details</a>
+                  </div>
+                  <div class="tabs__card">
+                    <img
+                      class="tabs__card-img"
+                      src="images/content/car_03.jpg"
+                      alt="Toyota Prius 2023"
+                    />
+                    <h4 class="title title__h4 tabs__card-title">
+                      Toyota Prius 2023
+                    </h4>
+                    <p class="tabs__card-text">starting from $ 39900</p>
+                    <p class="tabs__card-price">$ 400/mo</p>
+                    <a class="tabs__card-link" href="#">see details</a>
+                  </div>
+                  <div class="tabs__card">
+                    <img
+                      class="tabs__card-img"
+                      src="images/content/car_04.jpg"
+                      alt="Hyundai Kona 2023"
+                    />
+                    <h4 class="title title__h4 tabs__card-title">
+                      Hyundai Kona 2023
+                    </h4>
+                    <p class="tabs__card-text">starting from $ 39900</p>
+                    <p class="tabs__card-price">$ 510/mo</p>
+                    <a class="tabs__card-link" href="#">see details</a>
+                  </div>
+                </div>
+              </div>
+              <a class="blog__link showmore-link" href="#">Show more</a>
+            </div>
+          </div>
+        </section>
+        <section class="blog">
+          <div class="container">
+            <div class="blog__box">
+              <div class="blog__item">
+                <img
+                  class="blog__img"
+                  src="images/content/news01.jpg"
+                  alt="Toytota"
+                />
+                <h4 class="title title__h4 blog__title">
+                  An easier way to buy your next Toyota
+                </h4>
+                <a class="blog__item-link" href="#">more</a>
+              </div>
+              <div class="blog__item">
+                <img
+                  class="blog__img"
+                  src="images/content/news02.jpg"
+                  alt="Road-Tripping"
+                />
+                <h4 class="title title__h4 blog__title">
+                  A Guide to Road-Tripping With Pets
+                </h4>
+                <a class="blog__item-link" href="#">more</a>
+              </div>
+            </div>
+            <a class="blog__link showmore-link" href="#">Show more</a>
+          </div>
+        </section>
+      </main>
       <footer class="footer">
         <div class="container">
           <nav class="footer__menu">
