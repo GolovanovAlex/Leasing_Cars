@@ -122,9 +122,10 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    gap: 20px;
   }
   &__text-info {
-    max-width: 270px;
+    flex-basis: 270px;
   }
   &__img {
     display: inline-block;
