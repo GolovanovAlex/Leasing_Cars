@@ -108,8 +108,6 @@
   &__title-section {
     margin-bottom: 50px;
   }
-  &__text {
-  }
   &__box {
     margin-top: 50px;
     margin-bottom: 70px;
@@ -161,7 +159,6 @@
     margin-bottom: 20px;
   }
 }
-
 // ---- ---- contacts ---- ---- //
 .contacts {
   padding-top: 100px;
@@ -171,8 +168,6 @@
   &__subtitle {
     text-align: center;
     margin-bottom: 50px;
-  }
-  &__form {
   }
 }
 // ---- ---- form ---- ---- //
@@ -259,7 +254,6 @@
     margin-left: auto;
   }
 }
-
 // ---- ---- tabs and car---- ---- //
 .cars {
   padding-top: 100px;
@@ -325,6 +319,5 @@
     border-top: 1px solid $color_accent;
   }
 }
-
 // ---- ---- media ---- ---- //
 @import 'media.scss';

@@ -125,7 +125,6 @@
     justify-content: center;
   }
 }
-
 @media (max-width: 540px) {
   .title {
     &__h1 {
@@ -141,7 +140,6 @@
   .subtitle {
     font-size: 20px;
   }
-
   .header__inner {
     padding-top: 20px;
     padding-bottom: 25px;
@@ -263,7 +261,6 @@
   .important {
     padding: 60px 0;
   }
-
   .footer {
     &__menu {
       text-align: center;
