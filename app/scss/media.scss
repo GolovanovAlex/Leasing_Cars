@@ -1,4 +1,9 @@
 // ---- ---- media ---- ---- //
+@media (max-width: 1100px) {
+  .tabs__btn {
+    padding: 0;
+  }
+}
 @media (max-width: 1050px) {
   .video__content {
     width: 100%;
@@ -9,6 +14,10 @@
     &__list {
       gap: 40px 20px;
     }
+  }
+  .tabs__content-item {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px 20px;
   }
 }
 @media (max-width: 860px) {
@@ -79,6 +88,11 @@
       margin-bottom: 10px;
     }
   }
+  .tabs__btn {
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 666px) {
   .swiper-pagination-bullet {
@@ -99,6 +113,16 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 40px 20px;
     }
+  }
+  .cars {
+    padding-top: 60px;
+  }
+  .tabs__content-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .blog__box {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -139,6 +163,18 @@
       height: 250px;
     }
   }
+  .tabs {
+    &__card-title {
+      margin-bottom: 10px;
+    }
+    &__card-text {
+      margin-bottom: 10px;
+    }
+    &__card-price {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
 }
 @media (max-width: 440px) {
   .how {
@@ -153,6 +189,28 @@
     &__content {
       height: 180px;
     }
+  }
+  .tabs__content-item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tabs__btn {
+    gap: 20px;
+  }
+  .tabs__btn-item {
+    font-size: 20px;
+  }
+  .blog {
+    padding: 60px 0;
+  }
+  .contacts {
+    padding-top: 60px;
+  }
+  .form__input {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .form__textarea {
+    height: 200px;
   }
 }
 @media (max-width: 400px) {
@@ -205,6 +263,7 @@
   .important {
     padding: 60px 0;
   }
+
   .footer {
     &__menu {
       text-align: center;

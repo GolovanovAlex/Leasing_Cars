@@ -233,28 +233,30 @@
   padding: 150px 0;
   &__box {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 20px;
     margin-bottom: 70px;
   }
   &__item {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width: 570px;
   }
   &__img {
     width: 100%;
+    object-fit: cover;
     margin-bottom: 30px;
   }
   &__title {
-    padding-right: 20px;
+    padding-right: 10px;
+    margin-bottom: 5px;
   }
   &__item-link {
     background-color: $color_accent;
     color: $color_light;
     padding: 4px 20px;
+    margin-left: auto;
   }
 }
 
@@ -293,15 +295,18 @@
     }
   }
   &__card {
+    display: flex;
+    flex-direction: column;
     border: 1px solid $color_accent;
   }
   &__card-img {
+    width: 100%;
     object-fit: cover;
     margin-bottom: 20px;
   }
   &__card-title {
+    flex-grow: 1;
     padding: 0 5px;
-
     margin-bottom: 20px;
   }
   &__card-text {
