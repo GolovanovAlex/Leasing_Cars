@@ -283,10 +283,13 @@
     margin-bottom: 70px;
   }
   &__content-item {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px 40px;
     text-align: center;
+    &--active {
+      display: grid;
+    }
   }
   &__card {
     border: 1px solid $color_accent;
