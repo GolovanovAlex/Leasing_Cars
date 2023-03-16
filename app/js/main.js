@@ -1,10 +1,17 @@
+// ---- ---- menu button ---- ---- //
+const menuBtn = document.querySelector('.menu__btn');
+const menu = document.querySelector('.menu__items');
+
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('menu__items--active');
+  menuBtn.classList.toggle('menu__btn--active');
+});
 // ---- ---- tabs ---- ---- //
 const tabBtn = document.querySelectorAll('.tabs__btn-item');
 const tabItem = document.querySelectorAll('.tabs__content-item');
 
 tabBtn.forEach(function (e) {
   e.addEventListener('click', open);
-  console.log(e);
 });
 function open(event) {
   const tabTarget = event.currentTarget;

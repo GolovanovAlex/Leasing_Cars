@@ -69,6 +69,40 @@ body {
     }
   }
 }
+.logo {
+  position: relative;
+  z-index: 10;
+}
+// ---- ---- menu button ---- ---- //
+.menu__btn {
+  position: relative;
+  display: none;
+  width: 35px;
+  height: 35px;
+  z-index: 10;
+  span {
+    transition: all 0.2s;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: $color_light;
+    & + span {
+      margin-top: 7px;
+    }
+  }
+}
+.menu__btn.menu__btn--active {
+  span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+  span:nth-child(2) {
+    opacity: 0;
+  }
+  span:nth-child(3) {
+    transform: translateY(-10px) rotate(135deg);
+  }
+}
+
 // ---- ---- showmore ---- ---- //
 .showmore-link {
   display: block;
