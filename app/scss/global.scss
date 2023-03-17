@@ -63,7 +63,11 @@ body {
     font-weight: 700;
     color: $color_light;
     text-transform: uppercase;
+    transition: color 0.3s ease;
     &--active {
+      color: $color_accent;
+    }
+    &:hover {
       color: $color_accent;
     }
   }
@@ -112,6 +116,10 @@ body {
   color: $color_light;
   padding: 13px 20px;
   margin: 0 auto;
+  transition: color 0.3s ease;
+  &:hover {
+    color: $color_accent;
+  }
 }
 // ---- ---- header ---- ---- //
 .header {
@@ -142,6 +150,9 @@ body {
   }
   &__menu-list {
     max-width: 240px;
+  }
+  &__menu-link:hover {
+    text-decoration: underline;
   }
   &__menu-item {
     margin-bottom: 20px;
@@ -174,6 +185,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 40px;
+  }
+  &__policy-link:hover {
+    text-decoration: underline;
   }
 }
 // ---- ---- 404 ---- ---- //

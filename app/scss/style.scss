@@ -35,6 +35,10 @@
     text-transform: uppercase;
     padding: 23px;
     background-color: $color_dark;
+    transition: color 0.3s ease;
+    &:hover {
+      color: $color_accent;
+    }
   }
 }
 // ---- ---- slider-swiper ---- ---- //
@@ -252,6 +256,10 @@
     color: $color_light;
     padding: 4px 20px;
     margin-left: auto;
+    transition: background 0.3s ease;
+    &:hover {
+      background-color: $color_dark;
+    }
   }
 }
 // ---- ---- tabs and car---- ---- //
@@ -272,7 +280,11 @@
   &__btn-item {
     font-size: 24px;
     font-weight: 700;
+    transition: color 0.3s ease;
     &--active {
+      color: $color_accent;
+    }
+    &:hover {
       color: $color_accent;
     }
   }
@@ -317,6 +329,10 @@
     display: block;
     color: $color_accent;
     border-top: 1px solid $color_accent;
+    transition: color 0.3s ease;
+    &:hover {
+      color: $color_dark;
+    }
   }
 }
 // ---- ---- media ---- ---- //
